@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<title>jaredhanson.co</title>
+
+<link rel="stylesheet" type="text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
+
+<div id="header">
+	<h1>Jared Hanson</h1>
+	<h2>MIT Class of 2018<h2>
+</div>
+
+<div id="nav">
+	<table style="width:20%" align="center">
+		<tr>
+			<td><a href="www.jaredhanson.co/about_me/">About Me</a></td>
+			<td><a href="www.jaredhanson.co/contact_me/">Contact Me</a></td>
+		<tr>
+	</table>
+</div>
+
+{% block section %}{% endblock %}
+
+<div id="footer">
+	Jared Hanson 
+</div>
+		
+
